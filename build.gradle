@@ -29,11 +29,11 @@ if (keystorePropertiesFile.exists()) {
 // ==================
 
 android {
-    namespace 'com.mootcomb.unlocker'
+    namespace 'com.mootcomb.AlwaysAllowBackGesture'
     compileSdk 33
 
     defaultConfig {
-        applicationId 'com.mootcomb.unlocker'
+        applicationId 'com.mootcomb.AlwaysAllowBackGesture'
         minSdk 26
         targetSdk 33
         versionCode 1

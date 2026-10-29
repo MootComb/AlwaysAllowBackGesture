@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DeviceUnlocker</string>
-    <string name="module_description">Allows you to unlock your phone screen without entering a password</string>
+    <string name="app_name">AlwaysAllowBackGesture</string>
+    <string name="module_description">Allow the back gesture to always be used</string>
 </resources>
