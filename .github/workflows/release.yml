@@ -58,7 +58,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.version.outputs.tag }}
-          name: DeviceUnlocker ${{ steps.version.outputs.tag }}
+          name: ${{ github.event.repository.name }} ${{ steps.version.outputs.tag }}
           body: |
             Automated build from commit ${{ github.sha }}
 
